@@ -30,3 +30,18 @@ table,th,td{
 td{
     text-align: center;
 }
+ul{
+    text-align: initial;
+    list-style-type:square;
+}
+ol{
+    text-align: initial;
+    font-style: italic;
+    
+}
+iframe
+{
+    width: 500px;
+    height: 500px;
+    
+}
