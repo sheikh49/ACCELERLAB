@@ -1,6 +1,8 @@
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: larger;
+    background-color: aquamarine;
+    text-align: center;
     
 }
 img{
@@ -22,4 +24,46 @@ a:visited
 }
 html{
     scroll-behavior: smooth;
+}
+table,th,td{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+td{
+    text-align: center;
+}
+ul{
+    text-align: initial;
+    list-style-type:square;
+}
+ol{
+    text-align: initial;
+    font-style: italic;
+    
+}
+iframe
+{
+    width: 500px;
+    height: 500px;
+    
+}
+.demo
+{
+    font-size: medium;
+    font-weight: bold;
+}
+#dummy
+{
+    font-size: larger;
+    font-weight:bolder;
+    color: blueviolet;    
+}
+form
+{
+    align-self:center;
+}
+@media(max-width:600px){
+    body{
+        background-color: rgba(102, 24, 186, 0.59);
+    }
 }

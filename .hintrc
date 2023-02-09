@@ -5,6 +5,31 @@
   "browserslist": [
     "defaults",
     "not ie 11",
-    "not ios_saf <= 14.8"
-  ]
+    "not ios_saf <= 14.8",
+    "not and_ff <= 107"
+  ],
+  "hints": {
+    "no-inline-styles": "off",
+    "axe/text-alternatives": [
+      "default",
+      {
+        "frame-title": "off"
+      }
+    ],
+    "axe/forms": [
+      "default",
+      {
+        "label": "off",
+        "select-name": "off"
+      }
+    ],
+    "compat-api/html": [
+      "default",
+      {
+        "ignore": [
+          "iframe[loading]"
+        ]
+      }
+    ]
+  }
 }
